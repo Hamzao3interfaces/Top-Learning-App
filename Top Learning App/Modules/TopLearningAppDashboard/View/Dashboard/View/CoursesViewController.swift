@@ -13,14 +13,14 @@ class CoursesViewController: UIViewController {
     private let helloLabel: UILabel = {
         let label = UILabel()
         label.text = "Hello,User!"
-        label.textColor = .mediumSlateBlue
+        label.textColor = .blue
         label.font = .systemFont(ofSize: 30, weight: .light)
         return label
     }()
     private let startLabel: UILabel = {
         let label = UILabel()
         label.text = "Start a new Course"
-        label.textColor = .mediumSlateBlue
+        label.textColor = .blue
         label.font = .systemFont(ofSize: 35, weight: .medium)
         return label
     }()
@@ -36,7 +36,7 @@ class CoursesViewController: UIViewController {
         let label = UILabel()
         label.text = "Categories"
         label.font = .systemFont(ofSize: 30, weight: .light)
-        label.textColor = .white
+        label.textColor = .black
         return label
     }()
     private lazy var categoryCollectionView: UICollectionView = {
