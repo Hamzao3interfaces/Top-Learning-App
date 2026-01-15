@@ -12,7 +12,7 @@ class TopViewController: UIViewController {
     private let welcomeLabel: UILabel = {
         let label = UILabel()
         label.text = "Welcome"
-        label.textColor = .white
+        label.textColor = .black
         label.font = .systemFont(ofSize: 35, weight: .light)
         label.textAlignment = .center
         return label
@@ -20,14 +20,14 @@ class TopViewController: UIViewController {
     private let bookimageview: UIImageView = {
         let bookimage = UIImageView()
         bookimage.image = UIImage(named: "Books")?.withRenderingMode(.alwaysTemplate)
-        bookimage.tintColor = .white
+        bookimage.tintColor = .blue
         bookimage.contentMode = .scaleAspectFit
         return bookimage
     }()
     private let toplabel: UILabel = {
         let label = UILabel()
         label.text = "TOP"
-        label.textColor = .white
+        label.textColor = .black
         label.font = .systemFont(ofSize: 50, weight: .light)
         label.textAlignment = .center
         return label
